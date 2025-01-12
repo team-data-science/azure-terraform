@@ -1,0 +1,24 @@
+project_name = "your_project_name"
+location     = "your_location"
+storage_accounts = {
+  "storageaccountname1" : {
+    name                   = "storageaccountname1"
+    account_tier           = "account_tier"
+    access_tier            = "access_tier"
+    account_replication_type = "account_replication_type"
+    container_names        = ["container1", "container2", "container3"]
+    tags                   = {
+      Owner = "ADMINOWNER"
+    }
+  },
+  "storageaccountname2" : {
+    name                   = "storageaccountname2"
+    account_tier           = "account_tier"
+    access_tier            = "access_tier"
+    account_replication_type = "account_replication_type"
+    container_names        = ["container1"]
+    tags                   = {
+      Owner       = "ADMINOWNER"
+    }
+  }
+}
